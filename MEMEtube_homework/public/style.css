@@ -9,6 +9,8 @@ iframe {
 	height: 450px;
 	border-radius: 3%;
 	clear: right;
+	border-color: red;
+	border: 5px;
 
 }
 
@@ -34,7 +36,7 @@ h1 {
 	background-color: lightblue;
 	border-radius: 3%;
 	position: absolute;
-	right: 46.4%;
+	right: 47.3%;
 }
 
 #innerButton {
