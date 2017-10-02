@@ -1,0 +1,11 @@
+
+	<h1><%= @page_header %></h1>
+	
+
+	<h2 id="singleTitle"> Post Title: <%= @post.title %></h2>
+	<p id="singleDescription"> Description: <%= @post.body %></p>
+	<!-- <img src=<%= @post.body %>></img> -->
+	<iframe src="<%=@post.url %>" id='singleVid'></iframe>
+	<a href="/posts"><button id="singleBack">GO BACK</button></a>
+<!-- 	<button>EDIT</button>
+	<button>DELETE</button> -->
